@@ -1,13 +1,14 @@
 body {
-    background: #fff;
+    background: #d8d7db;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
-    color: #545454;
+    color: #17008a;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
     max-width: 800px;
     padding: 2em 2em 4em;
+
 }
 
 .accessaid, h1 {
@@ -19,9 +20,36 @@ body {
 header {
   background: 036 url(/examples/images/charlesdarwin.gif);
   height: 60px;
+  color: #031cfc;
 }
 
+#head {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: oblique;
+  padding: 60px;
+  text-align: center;
+  background: #a5a4a6;
+  color: white;
+  font-size: 30px;
+}
+cite {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #545454;
+  position: absolute;
 
+
+}
+.home {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #545454;
+  display: block;
+  position:inherit;
+     right: 0;
+     text-align: right;
+     width: 150px;
+
+
+}
 
 content {
   border-left: 134px solid 069;
@@ -43,6 +71,12 @@ img {
   border-radius: 4px;
   padding: 5px;
   width: 150px;
+
+a:link {
+  color: black;
+}
+
+
 }
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
