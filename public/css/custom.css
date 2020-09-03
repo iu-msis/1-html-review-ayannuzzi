@@ -11,11 +11,6 @@ body {
 
 }
 
-.accessaid, h1 {
-  position: absolute;
-  height: 0;
-  overflow: hidden;
-}
 
 header {
   background: 036 url(/examples/images/charlesdarwin.gif);
@@ -66,15 +61,48 @@ h3 {
   color: 036;
 }
 
+.home-link {
+  color: #4b3066 !important;
+  float: left;
+  padding: 5px 10px;
+}
+
+.home-link:visited {
+  color: pink !important;
+}
+
+.home-link:hover {
+  color: green !important;
+}
+
+.home-link:active {
+  color: white !important;
+}
+
 img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   width: 150px;
 
-a:link {
-  color: black;
+#email{
+  color: gold;
 }
+
+
+
+  a:visited {
+    color: green !important;
+  }
+
+
+  a:hover {
+    color: hotpink !important;
+  }
+
+  a:active {
+    color: blue !important;
+  }
 
 
 }
