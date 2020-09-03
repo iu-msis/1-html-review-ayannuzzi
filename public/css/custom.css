@@ -1,0 +1,49 @@
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+.accessaid, h1 {
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+}
+
+header {
+  background: 036 url(/examples/images/charlesdarwin.gif);
+  height: 60px;
+}
+
+
+
+content {
+  border-left: 134px solid 069;
+  background: gray url(/examples/images/lizards.gif) repeat-y;
+  padding: 1px 20px 1em 40px;
+}
+h2 {
+  font-size: 1.5em;
+  color: 036;
+}
+
+h3 {
+  font-size: 1.25em;
+  color: 036;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
