@@ -84,9 +84,20 @@ img {
   border-radius: 4px;
   padding: 5px;
   width: 150px;
+}
+
+.name {
+  color: #17008a;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#bold {
+  color: #17008a;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: oblique;
+}
 
 a.link{
-  color: gold;
+  color: gold !important;
 }
 
 
@@ -101,7 +112,7 @@ a.link{
   }
 
   a:active {
-    color: blue !important;
+    color: white !important;
   }
 
 
